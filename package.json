@@ -1,0 +1,32 @@
+{
+  "name": "lighthouse-crawler",
+  "version": "1.0.0-ALPHA1",
+  "description": "A lambda function designed to consume a list of URLs and run lighthouse for performance recommendations",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pxslip/lighthouse-crawler.git"
+  },
+  "keywords": [
+    "performance",
+    "lighthouse",
+    "lambda"
+  ],
+  "author": "Will Kruse <wskruse@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pxslip/lighthouse-crawler/issues"
+  },
+  "homepage": "https://github.com/pxslip/lighthouse-crawler#readme",
+  "dependencies": {
+    "chrome-remote-interface": "^0.27.1",
+    "lighthouse": "^4.2.0",
+    "serverless-plugin-chrome": "^1.0.0-55"
+  },
+  "devDependencies": {
+    "serverless-offline": "^4.9.2"
+  }
+}
